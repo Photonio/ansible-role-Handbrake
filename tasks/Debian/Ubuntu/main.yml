@@ -1,0 +1,6 @@
+---
+- name: Install HandBrake from apt
+  ansible.builtin.apt:
+    pkg:
+    - handbrake
+  become: true
